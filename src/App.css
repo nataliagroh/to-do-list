@@ -1,0 +1,77 @@
+body {
+  background-color: #af1aff;
+}
+
+.app {
+  background-color: white;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed {
+  text-decoration: line-through 2px #4240ff;
+  background-color: #f5f0f4;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  background: linear-gradient(to right, #af1aff,#4240ff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.delete {
+  background: #af1aff;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: none;
+  width: 60%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 2px;
+}
+
+.add {
+  background: #4240ff;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  width: 60%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 2px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  margin: 12px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  border-color: #4240ff;
+  border-radius: 2px;
+ 
+}
+
+img {
+  margin-top: 15px;
+  
+}
+
+
